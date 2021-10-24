@@ -88,7 +88,7 @@ assoct = arr' UPi.assoct
 assocti :: UPia (Times a (Times b c)) (Times (Times a b) c)
 assocti = arr' (UPi.inv UPi.assoct)
 
--- Liftearr' derivearr' structural combinators.
+-- Lifted derived structural combinators.
 unitpl :: UPia (Plus O a) a
 unitpl = arr' UPi.unitpl
 
